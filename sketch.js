@@ -22,7 +22,7 @@ strokeWeight(0.9);
 	beginShape(POINTS);
 	noFill();
 	while (beta < PI) {
-		let r = 40 * (0.1 + 1.05 * sin(6 * beta));
+		let r = 30 * (0.1 + 1.05 * sin(6 * beta));
 		let theta = 2 * beta;
 		let phi = 0.6 * PI * sin(12 * beta);
 		let x = r * cos(phi) * cos(theta);
