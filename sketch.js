@@ -37,3 +37,7 @@ strokeWeight(0.9);
 	
 	pop();
 }
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+  }
